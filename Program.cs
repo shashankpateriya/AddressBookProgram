@@ -15,10 +15,10 @@ namespace AddressBook
                 switch (Convert.ToInt32(Console.ReadLine()))
                 {
                     case 1:
-                        UC1CreateAddressBook.AddMember();
+                        UC2AddContacts.AddMember();
                         break;
                     case 2:
-                        UC1CreateAddressBook.ViewContacts();
+                        UC2AddContacts.ViewContacts();
                         break;
                     case 3:
                         // to exit from main method
